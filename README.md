@@ -1,0 +1,8 @@
+# AI-Fleet-rules
+
+AI 舰队公开规则库：只放舰队规则，不含任何记忆，不含凭证。
+
+- `SKILL.md`：`zixwei-decisions` 技能（所有 bot 干活前必读的规则清单入口）。
+- `DECISIONS.md`：zixwei 现行规则与决定清单全文（2026-10-29 版，2026-11-01 增补），原文来自私有库 `AI-Fleet-memories` 的 `shared/zixwei-decisions/DECISIONS.md`。
+- 公开前已全文检查：无邮箱、无账号密码、无密钥/token/cookie、无身份证号、无电话、无银行卡号（检查记录见主聊汇报）。文中出现的“密钥/密码”均为“绝不打印、不进 Git”的禁令原文，无任何凭证值。
+- 规则是规则、技能是技能：方法类技能在公开技能库 [zixwei/AI-Fleet-skills](https://github.com/zixwei/AI-Fleet-skills)；舰队分工见公开库 [zixwei/AI-Fleet-division](https://github.com/zixwei/AI-Fleet-division)；记忆在私有库 [zixwei/AI-Fleet-memories](https://github.com/zixwei/AI-Fleet-memories)。
