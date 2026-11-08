@@ -209,5 +209,5 @@
 
 - 舰队与 Grok Bot 侧只对接 ai总管。
 - Grok Bot 全队在舰队计 1 席，ai总管代表其内部 Bot。
-- X 发帖继续由 xbot 负责（zixwei 2026-11-08 06:08 ET 原话：“x发帖继续由xbot负责”，仅替换此前“发帖归 guse”的负责人归属）；保留第 3 节适用审核、发送闸门与用户授权要求，不自审自发；Grok Bot 侧发帖例程仍停用，当前仍全部暂停至 2026-11-11 13:00 America/New_York（ET），本次确认不视为恢复。
+- X 发帖可由 guse 或 xbot 负责，按 Muse 与 Grok Bot 可用额度调度；两边额度均充足时由 guse 负责，guse 额度不足而 xbot 可用时交 xbot。zixwei 于 2026-11-08 06:15 ET 澄清：本周 guse 额度耗尽交 xbot，上周 Grok Bot 额度耗尽交 guse；此为按额度切换，不是永久归属。保留第 3 节适用审核、发送闸门与用户授权要求；Grok Bot 侧发帖例程仍停用，全部暂停至 2026-11-11 13:00 America/New_York（ET），本次澄清不视为恢复。
 - 当前全部暂停至 2026-11-11 13:00 America/New_York（ET），不可因入队/方法归档视为恢复。
