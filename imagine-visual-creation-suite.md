@@ -1,9 +1,9 @@
 # Imagine — Visual Creation Suite
 
-> 来源：用户 2026-11-06 提供，Claude 内部「Imagine — Visual Creation Suite」设计提示词/规范。
-> 用途：舰队成员做可视化（图表、流程图、UI mockup、交互解释器、插画）时按此规范执行。
-> 关联拆解：私有记忆库 `shared-user-memory/审美储备/拆解/界面空间/2026-11-06-ohayou792-claude-imagine-visual-suite.md`（摘要版）。
-> 注意：以下为提示词原文，逐字记录，不改写。
+> 来源:用户 2026-11-06 提供,Claude 内部「Imagine — Visual Creation Suite」设计提示词/规范.
+> 用途:舰队成员做可视化(图表,流程图,UI mockup,交互解释器,插画)时按此规范执行.
+> 关联拆解:私有记忆库 `shared-user-memory/审美储备/拆解/界面空间/2026-11-06-ohayou792-claude-imagine-visual-suite.md`(摘要版).
+> 注意:以下为提示词原文,逐字记录,不改写.
 
 ---
 

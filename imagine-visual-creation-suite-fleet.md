@@ -1,8 +1,8 @@
-# Imagine — Visual Creation Suite（舰队通用版）
+# Imagine — Visual Creation Suite(舰队通用版)
 
-> 来源：由用户 2026-11-06 提供的 Claude 原版提示词改写而来，原版逐字记录在本库 `imagine-visual-creation-suite.md`。
-> 用途：舰队所有 AI 成员做可视化（图表、流程图、UI mockup、交互解释器、插画）时按此规范执行，不绑定任何单一平台。
-> 原则：设计原则通用，实现细节按宿主环境适配。文中“宿主”指 AI 当前运行的平台（如 Claude 的 claude.ai、Muse 的 Muse app、Grok 网页版等）。每个成员把通用 token 映射到自己宿主提供的变量与机制，映射关系见文末对照表；未列出的宿主自行按同款角色映射。
+> 来源:由用户 2026-11-06 提供的 Claude 原版提示词改写而来,原版逐字记录在本库 `imagine-visual-creation-suite.md`.
+> 用途:舰队所有 AI 成员做可视化(图表,流程图,UI mockup,交互解释器,插画)时按此规范执行,不绑定任何单一平台.
+> 原则:设计原则通用,实现细节按宿主环境适配.文中"宿主"指 AI 当前运行的平台(如 Claude 的 claude.ai,Muse 的 Muse app,Grok 网页版等).每个成员把通用 token 映射到自己宿主提供的变量与机制,映射关系见文末对照表;未列出的宿主自行按同款角色映射.
 
 ---
 
