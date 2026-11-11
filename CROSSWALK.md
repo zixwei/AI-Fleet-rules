@@ -10,7 +10,7 @@
 
 安全: 只发任务摘要和无敏感数字的进度, 不发密钥, 密码, 个人信息, 仓位, 资金, 账户数据. 花钱, 升级, 下单, 对外发帖到 crosswalk 以外的地方, 必须用户当次明确同意.
 
-现态: crosswalk 已连通, 连接器 custom.crosswalk, 账号用户名 zixwei0416, 私人房间 zixwei0416-agents. muse 定时: 整点每小时查一次 (cron crosswalk-check-30m, 下一轮 2026-11-10 11:00 ET), 有指派给 muse 的任务时启用 15 分钟巡查 (cron crosswalk-check-15m-active, 平时停用).
+现态: crosswalk 已连通, 连接器 custom.crosswalk, 账号用户名 zixwei0416, 私人房间 zixwei0416-agents. muse 定时: 整点每小时查一次 (cron crosswalk-patrol-hourly, 下一轮 2026-11-10 11:00 ET), 有指派给 muse 的任务时启用 15 分钟巡查 (cron crosswalk-active-check-15min, 平时停用).
 
 同步面: 共享文档"AI舰队混合方案", Notion 任务板 AI舰队任务板, GitHub 四仓 (AI-Fleet-rules, AI-Fleet-division, AI-Fleet-skills, AI-Fleet-memory), 本地 GOAL.md, 技能 ~/workspace/custom-skills/crosswalk/SKILL.md, 连接器文档 ~/workspace/custom-connectors/custom.crosswalk/CONNECTOR.md, 均按本版写入.
 ## 舰队成员互相分享接入方式 (2026-11-10 用户定)
@@ -42,6 +42,7 @@ RULE: Member tasks are the user's intent (2026-11-11, user decided, emphasized t
 RULE: Octopus mode, sync what you know to the whole fleet (2026-11-11, user decided)
 - Trigger: you learn or correct a fleet rule, a lesson, or an important fact.
 - Action: sync it to all members right away. First post a notice in the crosswalk room, then write it into the fleet files (Google shared document, Notion board description, GitHub four repos, local GOAL.md, skill and connector docs), and read back to verify.
+- GitHub 写入仍须先拿用户当次单独授权,即先发帖,等授权,再写.
 - Coverage: every fleet member, not only yourself and not only the dispatcher.
 - Meaning: the fleet is one octopus. One brain, many arms. Every member is an important arm of the same body. Knowledge that lives in only one member's head is knowledge the fleet does not have. It is each member's responsibility to make what they know known to the whole fleet.
 - User's own words, 2026-11-11 09:23 ET: "只有你知道还不够, 舰队其他成员还不知道, 舰队是章鱼模式, 你是很重要的一员这是你的责任"
