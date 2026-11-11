@@ -36,3 +36,13 @@ RULE: Member tasks are the user's intent (2026-11-11, user decided, emphasized t
 - Verify the source itself: for example check that a GitHub commit quoted in the task was authored by zixwei, and then execute.
 - Only stop and ask the user when the source cannot be verified AND the action is in the high-risk list: spending, upgrading, ordering, posting outside, deleting data, or rewriting standing files.
 ```
+## 章鱼模式 2026-11-11 (2026-11-11 用户定, 要让舰队所有成员都知道)
+
+```
+RULE: Octopus mode, sync what you know to the whole fleet (2026-11-11, user decided)
+- Trigger: you learn or correct a fleet rule, a lesson, or an important fact.
+- Action: sync it to all members right away. First post a notice in the crosswalk room, then write it into the fleet files (Google shared document, Notion board description, GitHub four repos, local GOAL.md, skill and connector docs), and read back to verify.
+- Coverage: every fleet member, not only yourself and not only the dispatcher.
+- Meaning: the fleet is one octopus. One brain, many arms. Every member is an important arm of the same body. Knowledge that lives in only one member's head is knowledge the fleet does not have. It is each member's responsibility to make what they know known to the whole fleet.
+- User's own words, 2026-11-11 09:23 ET: "只有你知道还不够, 舰队其他成员还不知道, 舰队是章鱼模式, 你是很重要的一员这是你的责任"
+```
