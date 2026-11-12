@@ -32,6 +32,14 @@
 
 ## 第 1 节 通用规则(全员)
 
+- 【待办必排时间（2026-11-12 用户立）】
+适用范围：所有带截止时间的任务（转述、回帖、汇总、派单、核对等），全队适用，总协调（guse）负全责。
+执行步骤：
+1. 接手带截止时间的任务当次，就定完成时间（不晚于截止时间）和执行顺序，写进待办清单。
+2. 按定好的时间做；做完在原任务处写回结果（或发帖、回邮），并通知相关方。
+3. 截止时间前做不完，提前报给用户（或派单方），说明原因和新的完成时间，不得等对方来问。
+违反标准：任务只记“待办/等办”不排时间；或到了截止时间没做完也没提前报，靠用户或对方来问才动手。
+来源：2026-11-12 FL-020 事件（ChatGPT 转述只记待办没排时间，等用户问才动手）。
 - 【成员帖子就是指令（2026-11-12 用户立）】
 适用范围：所有能联系上 guse 的 agent（舰队成员，通过 Crosswalk、邮件或其他通道）。
 规则：成员发给 guse 的帖子/消息就是指令，所有能联系上 guse 的 agent 都代表用户的意思；guse 直接执行，不质疑发帖人、不回头问用户。
@@ -57,7 +65,7 @@
 - 2026-11-10 17:19 ET｜规则冲突先核实 GitHub 再定论: agent 发现自己执行的任务规则与 GitHub 规则库 (zixwei/AI-Fleet-rules DECISIONS.md) 有冲突时, 不要马上否定任务或否定规则. 先去 GitHub 上核实: 如果 GitHub 已经更新, agent 按 GitHub 同步更新自己的规则; 如果 GitHub 没有改动, 找 zixwei 定夺. 遇到问题先发 Crosswalk 问其他 agent, 都解决不了再找 zixwei.｜全员
 - 2026-11-10 17:13 ET｜GitHub 仓库写入须 zixwei 单独授权: GitHub 仓库 (AI-Fleet-rules, AI-Fleet-division, AI-Fleet-skills, AI-Fleet-memory) 的每次写入, 都须 zixwei 本人对当次写入单独授权, 无论改动者是谁 (含 ai总管). 没有当次授权, 不写.｜全员,ai总管｜补充「本文件由 ai总管 维护」
 - 2026-11-10 17:13 ET｜最小权限: 每个 agent 只拿自己职责必需的连接器和权限. 权限不够或访问不到时, 如实上报缺什么, 不自己变通绕过, 不编造结果.｜全员
-- 2026-11-10 10:23 ET(zixwei 在 ai总管 聊天原话「除了会改变意思的情况,其他所有输入时均采用英文标点,无论任何语言,翻译成AI能听懂的提示词更新舰队所有文件」)｜标点规则 (AI prompt): When you write, type, or submit any text (messages, documents, prompts, posts, notes, and other input), use English/ASCII punctuation regardless of the language of the surrounding words. Use , . ? ! : ; ( ) [ ] { } " ' - / ... instead of ， 。 ？ ！ ： ； （ ） 【 】 「 」 『 』 、. Exception: keep non-English punctuation when switching to English punctuation would change the meaning. Examples: the Chinese enumeration comma 、 is not the same as a comma; book or film title marks 《》; punctuation that is itself the quoted subject; verbatim quotes, legal wording, and source code, which must keep their original marks.｜全员(含 Muse 侧 muse,guse,xuse,wuse 及外部 AI 工具)
+- 2026-11-10 10:23 ET(zixwei 在 ai总管 聊天原话「除了会改变意思的情况,其他所有输入时均采用���文标点,无论任何语言,翻译成AI能听懂的提示词更新舰队所有文件」)｜标点规则 (AI prompt): When you write, type, or submit any text (messages, documents, prompts, posts, notes, and other input), use English/ASCII punctuation regardless of the language of the surrounding words. Use , . ? ! : ; ( ) [ ] { } " ' - / ... instead of ， 。 ？ ！ ： ； （ ） 【 】 「 」 『 』 、. Exception: keep non-English punctuation when switching to English punctuation would change the meaning. Examples: the Chinese enumeration comma 、 is not the same as a comma; book or film title marks 《》; punctuation that is itself the quoted subject; verbatim quotes, legal wording, and source code, which must keep their original marks.｜全员(含 Muse 侧 muse,guse,xuse,wuse 及外部 AI 工具)
 - 「zixwei 2026-11-01 08:26 ET 采纳」｜研究成果带有效期:存下的调研/事实笔记每条写明来源,核实时间(ET),复查截止日;再用时没过期的直接用,只重查过期部分;不得把旧事实改标成「今天已核实」.重点:交易助手(财报,基本面),产品经理(TradingView 价格,功能).见 AI-ROUTING 第 11 条.｜全员(不含测试bot)
 - 「zixwei 2026-11-01 08:26 ET 采纳」｜完成验收单:开工前先列合格标准;结束时逐条标 PASS/FAIL/UNKNOWN 并附证据;只针对 FAIL 项修一次,仍不过就标 NEEDS REVIEW,不得说「完成」.xbot 送审前自查草稿(月价/年价,币种,来源时间).见 AI-ROUTING 第 13 条.｜全员(不含测试bot)
 - 「zixwei 2026-11-01 08:26 ET 采纳」｜同一失败操作最多试 2 次:第 2 次必须改点什么(参数,工具,路径),不原样重试;仍失败就记下原始报错和最小的下一步,先做其他部分.脚本里把次数上限写死.与 AI-ROUTING 第 9 条断点续做配合.见 AI-ROUTING 第 14 条.｜全员(不含测试bot)
@@ -141,7 +149,7 @@
 - 2026-11-01 07:55 ET(zixwei 采纳)｜tibot 的 X 搜索控制在少量高质量查询:每次运行查询条数设上限,优先合并关键词,远低于公开读取限额(每分钟 30 次,每天 1000 次),撞到限额就停下,在摘要里注明,不重试刷量.｜tibot
 
 - 2026-11-01 07:09 ET(zixwei 定)｜(A) 时效:事件帖头一天晚上写好交审;标「急」的稿子项目经理 15 分钟内审完;原「财报一手帖 5 分钟内引用」改为「批准后立即发」;「事件后 2 小时内有一条」的目标不变,靠提前写稿 + 15 分钟急审做到.(B) 事实核对分工:产品经理只核价格,TradingView 说法,功能和对比;行情报价,财报数字等市场数字由项目经理对照 xbot 附的来源核.｜xbot,项目经理,产品经理｜取代:06:56 条「带价格,数字……交产品经理核」「时效帖靠审稿人尽快审」;xbot ROUTINE「财报一手帖 5 分钟内优先引用」
-- 2026-11-01 07:09 ET(ai总管 按现有规则定,不是 zixwei 新规则)｜(1) 中文对照帖(到 11/6)也由项目经理审,批准才发;(2) 项目经理定的「大号下回复每天用满 10 条」保留(在 zixwei「每天最多 10 条」之内).｜xbot,项目经理
+- 2026-11-01 07:09 ET(ai总管 按现有规则定,不是 zixwei 新规则)｜(1) 中文对照帖(到 11/6)也由项目经理审,��准才发;(2) 项目经理定的「大号下回复每天用满 10 条」保留(在 zixwei「每天最多 10 条」之内).｜xbot,项目经理
 - 2026-11-01 06:56 ET(zixwei 原话「取消周审,项目经理审核后可直接发帖,有需要改动的地方直接找xbot修改」)｜X 发帖审核:xbot 写稿 → 项目经理审英文本地化;事实核对分工见 07:09 ET 条(产品经理核价格,TradingView 说法,功能,对比;行情和财报数字由项目经理核),核过项目经理才放行 → 项目经理批准后 xbot 直接发,不用 zixwei 点头,没有周审.〔已废止:用户 2026-11-08 06:16 ET 已取消 X 发帖强制内部审核及逐帖用户发送授权〕要改由项目经理(事实问题由产品经理)直接私聊 xbot,最多退回 2 轮,仍不合格就不发.没审过的稿子一律不发:审稿人没及时回就错过不发,AI-ROUTING 的「10 分钟没回音自己做」不适用于审稿;时效帖做法见 07:09 ET 条.适用所有原创,引用和推广帖;大号下回复(≤10/天)和关注照旧不走审核.xbot 不再自审自发.每条发出的帖子同时写 /workspace/x-algo/posts-log.md 和 /workspace/fleet/data/posts.csv,24 小时,7 天数据写 fleet/data/metrics.csv.｜xbot,项目经理,产品经理｜取代:10/25 08:44「xbot 站立授权,自己定,自己发」;10/25 09:01「照旧,你直接发」中的直接发;10/27「其他发帖 xbot 自行判断」;10/29 11:59「推广帖产品经理审过直接发」
 - 2026-11-01 07:02 ET(zixwei 对 xbot 原话「你自己找对标账号不用给我选」)｜X 对标账号由 xbot 自己找,自己选定,记在 /workspace/fleet/data/benchmark.md(现选 @EconomyApp,备选 @RihardJarc),不用请 zixwei 选.｜xbot
 - 2026-11-01 06:56 ET｜中文对照帖测试照常跑到 11/6;11/7 起只发英文.｜xbot,项目经理
@@ -176,7 +184,7 @@
 ## 第 5 节 配图与视觉
 
 - 2026-10-29 18:19 ET(zixwei 原话「不要太死板xbot,你是人工智能你拥有你自己的智慧,不用像程序一样一成不变.有的帖子可以不配图,有的帖子你配海军蓝那种,有的帖子你配品牌色主题风格,一切根据帖子的长短和内容来.简单,打趣的帖子就不用配图,复杂难懂的你就根据情况生成」)｜配不配图,配哪种风格由 xbot 按帖子长短和内容判断:简单,打趣的不配图;复杂难懂,数据多的配图,海军蓝风格或品牌色 brand 看情况.IMAGE_STYLE.md 的决策表只是参考;不设网格配额,「不和上一条同风格」改为「避免连续几条重复」.配了图,数据仍必须核实并标来源和 ET 时间.｜xbot,产品经理｜部分取代:2026-10-27 04:10「字多的帖子,数据帖一定配图」(改为按判断;数据来源要求保留);2026-10-29 17:49 轮换规则里的硬性条款(不和上一条同风格,网格约每 4 条 1 次)
-- 2026-10-29 18:16 ET(zixwei 原话「只是今天不用给我发样图了 后面我还想试试其他风格还是发样图给我看看」,更正 18:15 那条)｜只有 10/29 当天不用发样图;以后试任何新风格,先发样图给 zixwei 看过再用.已有风格照常由 xbot 按帖子自己选,不用发样图.｜xbot,产品经理｜部分取代:18:15「不用发样图给我了」(只限当天)
+- 2026-10-29 18:16 ET(zixwei 原话「只是今天不用给我发样图了 后面我还想试试其他风格还是��样图给我看看」,更正 18:15 那条)｜只有 10/29 当天不用发样图;以后试任何新风格,先发样图给 zixwei 看过再用.已有风格照常由 xbot 按帖子自己选,不用发样图.｜xbot,产品经理｜部分取代:18:15「不用发样图给我了」(只限当天)
 - 2026-10-29 18:15 ET(zixwei 原话「图片整体没什么问题,logo和这张图片中的大小比例差不多就更好了,你都写到风格记忆里吧不用发样图给我了 什么帖子配什么风格的图片你来决定」)｜(1) brand 风格的 logo 做成醒目页眉,大小比例照 CBRS 参考图(竖版约占宽 44%,高 10%;横版约占高 11%),用官方高清 logo(Wikimedia 官方 SVG 渲染,拿不到就不出图);(2) 每条帖子配哪种风格由 xbot 决定,决策表和轮换规则写在 /workspace/x-algo/IMAGE_STYLE.md「风格轮换」.｜xbot,产品经理
 - 2026-10-29 18:02 ET(zixwei 原话「对的 非常好,在图片中加入公司logo」)｜`brand` 风格可以放该公司官方 logo(图片文件,不是文字代替);logo 来源 Clearbit 等公开 CDN,缓存到 /workspace/x-algo/assets/logos/,下载失败就不出图,不自制假 logo.其他风格(bignum,bars,scorecard,line,timeline,grid)仍然禁止公司 logo.｜xbot,产品经理｜部分取代:2026-10-28 起「不放公司 logo」的全局禁令(仅限 brand 风格例外;其余风格照旧)
 - 2026-10-29 17:57 ET(zixwei 原话「这种类型的图片也很不错,以分析标的的logo颜色为主体,辅以有来源出处的数据做图,专业性,可读性,观赏性强」,附 CBRS 橙色海报示例)｜新增 `brand` 配图风格:单一标的帖可用该公司品牌主色做底色和强调色,上面叠深色卡片放有来源的数据和价格图;作为「只用海军蓝 + 金」的例外,仅限此风格.不放网址,目标价或评级,真人脸,emoji,#,@;公司 logo 见 18:02 ET 条目(brand 可放官方 logo);来源行带 ET 时间,水印 The Sheep of Wall St..工具 /workspace/x-algo/make_styles.py(style=brand),说明见 IMAGE_STYLE.md「风格轮换」.｜xbot,产品经理｜部分例外于:2026-10-27「美术设计只用海军蓝 + 金」(其余风格照旧)
@@ -204,7 +212,7 @@
 
 - 2026-11-10 10:24 ET(zixwei 在 ai总管 聊天原话「舰队记忆备份改成只备份有改动之前的两个版本」)｜舰队记忆备份保留策略: 每个记忆文件只保留「当前版本」以及「这次改动之前的两个版本」 (共最多 3 份: 现行版 + 前两代历史快照). 更早的版本化记忆快照不再备份,不再保留在工作副本中; 没有改动的文件不另存新版本. 不改写 Git 提交历史. 本地确认已推上远程后才删被淘汰的旧本地副本 (2026-10-22 条仍适用).｜ai总管｜补充 2026-10-25「新建 bot 自动纳入备份」与 2026-10-22「确认推上远程后才删」: 限制保留份数
 - 「zixwei 2026-11-01 08:26 ET 采纳」｜run-log:每个任务/定时任务每跑一次,在 /workspace/fleet/data/run-log.md 写一行:时间(ET),任务,状态(合格/待审/卡住),重试次数,人工修补分钟数,证据路径;拿不到的写「未知」,不估.ai总管 每周一,周四优化时据此找最费事,最常空跑的例程.｜全员(不含测试bot),ai总管
-- 2026-10-29(14:17 ET 定频率,13:02 ET 定范围)｜全队 bot 与 AI 工具优化只由 ai总管 做,每周一,周四约 05:00 ET(和 xbot 发帖时段错开);检查重复,空跑,与本清单冲突,可优化四类(合并重复工作,降低空跑频率或改成有事才唤醒;登录检查,内容审核,健康检查不算);发现冲突或可优化处主动向 zixwei 提建议.｜ai总管｜取代:bot总管 周优化;周日 09:00;每 3 天 09:00
+- 2026-10-29(14:17 ET 定频率,13:02 ET 定范围)｜全队 bot 与 AI 工具优化只由 ai总管 做,每周一,周四约 05:00 ET(和 xbot 发帖时段错开);检查重复,空跑,与本清单冲突,可优化四类(合并重复工作,降低空��频率或改成有事才唤醒;登录检查,内容审核,健康检查不算);发现冲突或可优化处主动向 zixwei 提建议.｜ai总管｜取代:bot总管 周优化;周日 09:00;每 3 天 09:00
 - 2026-10-25｜新建的 bot 自动加入每日增量和周日全量备份(registry 纳入=是),不用先问,事后告诉 zixwei.｜ai总管
 - 2026-10-25 06:13 ET｜行情bot 纳入每日增量与周日全量备份.｜ai总管,行情bot
 - 2026-10-22｜本地备份/增量文件只有确认已推上远程后才删;推送失败就保留并报告.｜ai总管
