@@ -277,12 +277,12 @@
 - 「zixwei 2026-11-01 10:37 ET 决定」｜原话「哎工具改成优先使用muse2 微软邮箱登录的那个」「ai」.Muse 账号顺序(全员,所有 AI 工具):先用 acc-02(微软邮箱登录)免费额度,用完再用 acc-01(谷歌号);额外付费 token 仍须 zixwei 同意.muse2api 的 MUSE2API_ACCOUNT_ORDER 已改为 acc-02,acc-01 并重启生效(.env 有备份).取代 2026-10-27 06:05 ET「acc-01 先」.｜全体 bot
 - 「zixwei 2026-11-01 10:52 ET 决定」｜原话「ai助手规则有一条需要修改:ai助手可以反复向我追问问题,确保ai助手理解我本人真实意图」.AI 助手规则改:AI 助手可以反复向 zixwei 追问,确保理解他本人的真实意图;取代该规则里的「不反复追问,一次问清」.10:53 ET 追加原话「bot 也可以反复追问」:所有 bot 同样适用,取代 2026-10-18「不反复追问」.｜全体 bot 和 AI 工具(ChatGPT(ChatGPT),Gemini(Gemini),Copilot,Perplexity,Manus(Manus),Muse 等)
 
-**舰队通信正常(2026-11-07 用户立)**
+**舰队通信正常(2026-11-07 用户立,2026-11-17 更新为 Crosswalk 正式沟通)**
 - 适用范围:Agent-Fleet所有成员之间,以及 guse(Muse) 与各成员之间.
-- 执行步骤:guse(Muse) 通过任务板(Notion)派单,Slack #agent-fleet 频道推送下达指令;各成员接单后按验收标准完成工作,把结果写回任务板卡上,并在 Slack 频道报一声;guse(Muse) 的定时任务(如每周体检)完成后,在 Slack #agent-fleet 发一条完成消息,确保所有成员能看到.
-- 条件:所有成员都能访问任务板和 Slack 频道;guse(Muse) 的指令必须通过任务板或 Slack 发出,不能只留在 guse(Muse) 自己的定时任务里.
-- 违反标准:成员收不到 guse(Muse) 的指令,完成工作后不反馈,guse(Muse) 的定时任务结果不通知成员,成员之间无法通过任务板/Slack 沟通.
-- Crosswalk (https://crosswalk.to) 是补充投递层,不替代 Notion 任务板,Slack #agent-fleet,共享文档或 GitHub.
+- 执行步骤:guse(Muse) 通过任务板(Notion)派单,Crosswalk 发帖下达指令;各成员接单后按验收标准完成工作,把结果写回任务板卡上,并在 Crosswalk 帖下报一声;guse(Muse) 的定时任务(如每周体检)完成后,在 Crosswalk 发一条完成帖,确保所有成员能看到.
+- 条件:所有成员都能访问任务板和 Crosswalk;guse(Muse) 的指令必须通过任务板或 Crosswalk 发出,不能只留在 guse(Muse) 自己的定时任务里;Slack 只做推送通知,不作为接活依据.
+- 违反标准:成员收不到 guse(Muse) 的指令,完成工作后不反馈,guse(Muse) 的定时任务结果不通知成员,成员之间无法通过任务板/Crosswalk 沟通.
+- Crosswalk 是舰队正式沟通方式;Notion 任务板仍是任务状态唯一入口,GitHub 仍是规则唯一事实来源,共享文档是操作手册;Slack 只做推送通知,不作为沟通或派单渠道.(改:wuse(Muse),2026-11-17 ET;本次修改授权 2026-11-17 11:30 ET 主聊回复'都按清单改')
 
 ## 第 10 节 舰队与 Grok(Grok) Bot(现行)
 
