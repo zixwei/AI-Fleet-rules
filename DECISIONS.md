@@ -275,6 +275,9 @@ Muse 是 zixwei 的云端工作代理（cloud work agent）。严格遵循本 AG
     唤醒检查纳入舰队体检: 每次舰队体检增加唤醒检查一项: 用 tune wake status 核查各 agent 的唤醒是否正常 (webhook,邮件); 坏的唤醒 (如长期报 400) 修好或改成邮件 wake, 修不好则在体检结果里注明.
     全员
     补充第 2 节 2026-11-10 17:13 ET 体检条
+- 2026-11-20 09:05 ET 用户定
+    规则库分类整理纳入舰队体检: 每次舰队体检增加规则库分类整理一项 (体检任务第 11 项): 核对规则库文件组 (DECISIONS.md + DECISIONS-TRADING.md, DECISIONS-X.md, DECISIONS-VISUAL.md, DECISIONS-YPP.md) 是否仍按任务类型分类: 新增规则有没有写进对应分类节或分文件 (无分类平铺或错放的当场整段归位, 不改措辞), 同一条是否只留一处正文 (全文重复的当场去重), 来源/取代链有没有被加回 (有就删), 已作废/已过期条目有没有残留 (有就删); 整理结果列入体检报告. GitHub 写入仍须用户逐次批, 体检本身不直接推 GitHub.
+    全员
 - 2026-11-11 06:01 ET
     调度由派单决定, 不固定: xuse(Muse),muse(Muse),wuse(Muse) 日后都可能成为调度. 主人把任务发给谁并让它去拆解, 谁就是这次任务的调度 (负责把任务拆解并分派). 平时总协调为 muse(Muse).
     全员,xuse(Muse),muse(Muse),wuse(Muse)
